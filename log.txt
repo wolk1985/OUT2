@@ -1,0 +1,539 @@
+2024-12-28 13:40:19,275 ERROR:Помилка при перевірці балансу: {"msg":"Invalid OK-ACCESS-KEY","code":"50111"}
+2024-12-28 13:43:47,007 ERROR:Помилка при перевірці балансу: {"msg":"Request header OK-ACCESS-SIGN can not be empty.","code":"50106"}
+2024-12-28 13:51:01,114 ERROR:Помилка при перевірці балансу: {"msg":"Request header OK-ACCESS-SIGN can not be empty.","code":"50106"}
+2024-12-28 13:54:36,070 ERROR:Помилка при перевірці балансу: {"msg":"Invalid OK-ACCESS-TIMESTAMP","code":"50112"}
+2024-12-28 14:03:03,290 ERROR:Помилка при перевірці балансу: {"msg":"Invalid OK-ACCESS-TIMESTAMP","code":"50112"}
+2024-12-28 14:07:18,857 ERROR:Помилка при перевірці балансу: {"msg":"Invalid OK-ACCESS-TIMESTAMP","code":"50112"}
+2024-12-28 14:08:48,380 ERROR:Помилка при перевірці балансу: {"msg":"Invalid OK-ACCESS-TIMESTAMP","code":"50112"}
+2024-12-28 14:10:46,754 ERROR:Помилка при перевірці балансу: {"msg":"Invalid OK-ACCESS-TIMESTAMP","code":"50112"}
+2024-12-28 14:31:19,972 ERROR:Помилка при перевірці комісії: {"code":404,"data":{},"detailMsg":"","error_code":"404","error_message":"Not Found","msg":"Not Found"}
+2024-12-28 14:35:45,444 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:35:45,768 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 14:35:45,772 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:35:46,162 DEBUG:https://www.okx.com:443 "GET /api/v5/asset/currencies HTTP/1.1" 200 None
+2024-12-28 14:37:07,183 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:37:07,682 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 14:37:07,690 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+
+2024-12-28 14:38:52,536 ERROR:Помилка при перевірці комісії: {"code":404,"data":{},"detailMsg":"","error_code":"404","error_message":"Not Found","msg":"Not Found"}
+2024-12-28 14:42:10,384 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:42:10,770 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 14:42:10,774 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:42:11,142 DEBUG:https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 14:42:11,144 ERROR:Помилка при перевірці комісії: 404 Client Error: Not Found for url: https://www.okx.com/api/v5/asset/currencies/ETH
+2024-12-28 14:44:28,980 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:44:29,346 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 14:44:29,350 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:44:29,756 DEBUG:https://www.okx.com:443 "GET /api/v5/asset/currencies HTTP/1.1" 200 None
+2024-12-28 14:44:29,765 ERROR:Валюта ETH у мережі Arbitrum One не знайдена в отриманих даних.
+2024-12-28 14:47:15,432 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:47:15,801 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 14:50:10,335 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:50:10,657 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 14:50:10,661 DEBUG:Starting new HTTPS connection (1): www.oklink.com:443
+2024-12-28 14:50:11,338 DEBUG:https://www.oklink.com:443 "GET /api/v5/eth/gas-price HTTP/1.1" 404 None
+2024-12-28 14:50:11,354 ERROR:Помилка при перевірці GWEI: 404 Client Error: Not Found for url: https://www.oklink.com/api/v5/eth/gas-price
+2024-12-28 14:53:16,709 ERROR:Помилка при читанні config.json: Expecting ',' delimiter: line 7 column 5 (char 139)
+2024-12-28 14:54:15,415 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 14:54:16,012 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 14:54:16,018 DEBUG:Starting new HTTPS connection (1): www.oklink.com:443
+2024-12-28 14:54:17,477 DEBUG:https://www.oklink.com:443 "GET /api/v5/eth/gas-price HTTP/1.1" 404 None
+2024-12-28 14:54:17,775 ERROR:Помилка при перевірці GWEI: 404 Client Error: Not Found for url: https://www.oklink.com/api/v5/eth/gas-price
+2024-12-28 15:15:57,848 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 15:15:58,322 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 15:15:58,332 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 15:15:58,721 DEBUG:https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 15:15:58,723 ERROR:Помилка при перевірці комісії: 404 Client Error: Not Found for url: https://www.okx.com/api/v5/asset/currencies/ETH
+2024-12-28 15:37:28,020 INFO:Конфігураційний файл успішно завантажено.
+2024-12-28 15:37:28,020 INFO:Файл з API ключами успішно завантажено.
+2024-12-28 15:37:28,020 INFO:Файл з адресами гаманців успішно завантажено.
+2024-12-28 15:39:01,203 INFO:Конфігураційний файл успішно завантажено.
+2024-12-28 15:39:01,203 INFO:Файл з API ключами успішно завантажено.
+2024-12-28 15:39:01,203 INFO:Файл з адресами гаманців успішно завантажено.
+2024-12-28 15:39:01,205 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 15:39:01,343 ERROR:Помилка в основній логіці: 'ascii' codec can't encode characters in position 13-16: ordinal not in range(128)
+2024-12-28 15:41:48,129 INFO:Конфігураційний файл успішно завантажено.
+2024-12-28 15:41:48,129 INFO:Файл з API ключами успішно завантажено.
+2024-12-28 15:41:48,129 INFO:Файл з адресами гаманців успішно завантажено.
+2024-12-28 15:41:48,129 ERROR:Помилка в основній логіці: Invalid format string
+2024-12-28 15:50:32,830 INFO:Конфігураційний файл успішно завантажено.
+2024-12-28 15:50:32,830 INFO:Файл з API ключами успішно завантажено.
+2024-12-28 15:50:32,830 INFO:Файл з адресами гаманців успішно завантажено.
+2024-12-28 15:50:32,830 DEBUG:Generated timestamp: 2024-12-28T13:50:32.830Z
+2024-12-28 15:50:32,830 DEBUG:Message for HMAC: 2024-12-28T13:50:32.830ZGET/api/v5/account/balance
+2024-12-28 15:50:32,832 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 15:50:32,955 ERROR:Помилка в основній логіці: 'ascii' codec can't encode characters in position 10-18: ordinal not in range(128)
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Phyton\OKX OUT\withdrawal_script.py", line 177, in main
+    balance = check_balance()
+  File "C:\Users\hp\Documents\Phyton\OKX OUT\withdrawal_script.py", line 68, in check_balance
+    response = requests.get(base_url + url, headers=headers)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 444, in request
+    self.putheader(header, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 358, in putheader
+    super().putheader(header, *values)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1301, in putheader
+    header = header.encode('ascii')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 10-18: ordinal not in range(128)
+2024-12-28 15:51:02,608 INFO:Конфігураційний файл успішно завантажено.
+2024-12-28 15:51:02,608 INFO:Файл з API ключами успішно завантажено.
+2024-12-28 15:51:02,608 INFO:Файл з адресами гаманців успішно завантажено.
+2024-12-28 15:51:02,608 DEBUG:Generated timestamp: 2024-12-28T13:51:02.608Z
+2024-12-28 15:51:02,608 DEBUG:Message for HMAC: 2024-12-28T13:51:02.608ZGET/api/v5/account/balance
+2024-12-28 15:51:02,610 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 15:51:02,668 ERROR:Помилка в основній логіці: 'ascii' codec can't encode characters in position 10-18: ordinal not in range(128)
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Phyton\OKX OUT\withdrawal_script.py", line 177, in main
+    balance = check_balance()
+  File "C:\Users\hp\Documents\Phyton\OKX OUT\withdrawal_script.py", line 68, in check_balance
+    response = requests.get(base_url + url, headers=headers)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 444, in request
+    self.putheader(header, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 358, in putheader
+    super().putheader(header, *values)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1301, in putheader
+    header = header.encode('ascii')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 10-18: ordinal not in range(128)
+2024-12-28 15:53:58,404 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 15:53:59,067 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 327
+2024-12-28 15:53:59,073 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 15:53:59,398 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 15:53:59,406 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 15:53:59,788 DEBUG:https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 15:53:59,790 ERROR:Помилка при перевірці комісії: 404 Client Error: Not Found for url: https://www.okx.com/api/v5/asset/currencies/ETH
+2024-12-28 15:58:57,100 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 15:58:57,761 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 323
+2024-12-28 15:58:57,767 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 15:58:58,283 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 15:59:32,396 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 15:59:33,092 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 325
+2024-12-28 15:59:33,098 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 15:59:33,413 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 16:01:20,748 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:01:21,373 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 315
+2024-12-28 16:05:43,807 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:05:44,477 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 307
+2024-12-28 16:05:44,483 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 16:05:45,137 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 16:05:45,145 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 16:05:45,517 DEBUG:https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 16:05:45,519 ERROR:Помилка при перевірці комісії: 404 Client Error: Not Found for url: https://www.okx.com/api/v5/asset/currencies/ETH
+2024-12-28 16:09:27,160 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:09:29,810 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 330
+2024-12-28 16:09:29,816 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 16:09:30,130 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 16:09:30,138 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 16:09:30,490 DEBUG:https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 16:09:30,492 ERROR:Помилка при перевірці комісії: 404 Client Error: Not Found for url: https://www.okx.com/api/v5/asset/currencies/ETH
+2024-12-28 16:21:34,014 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:21:34,657 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 314
+2024-12-28 16:26:22,719 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:26:23,342 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 330
+2024-12-28 16:27:38,487 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:27:39,163 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 326
+2024-12-28 16:27:39,164 DEBUG:GWEI data: {'status': '1', 'message': 'OK', 'result': {'LastBlock': '21501554', 'SafeGasPrice': '6.124649477', 'ProposeGasPrice': '6.179216868', 'FastGasPrice': '7.093949477', 'suggestBaseFee': '6.123949477', 'gasUsedRatio': '0.4982467,0.492506367532105,0.496142766666667,0.370572333333333,0.620588661838381'}}
+2024-12-28 16:28:41,700 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:28:42,323 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 310
+2024-12-28 16:28:42,325 DEBUG:GWEI data: {'status': '1', 'message': 'OK', 'result': {'LastBlock': '21501559', 'SafeGasPrice': '5.830625608', 'ProposeGasPrice': '5.831325608', 'FastGasPrice': '5.930625608', 'suggestBaseFee': '5.830625608', 'gasUsedRatio': '0.427729633333333,0.524100533333333,0.438726933333333,0.468333866666667,0.446472033333333'}}
+2024-12-28 16:28:42,325 DEBUG:Propose Gas Price: 5.83
+2024-12-28 16:28:44,652 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:28:45,262 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 310
+2024-12-28 16:28:45,263 DEBUG:GWEI data: {'status': '1', 'message': 'OK', 'result': {'LastBlock': '21501559', 'SafeGasPrice': '5.830625608', 'ProposeGasPrice': '5.831325608', 'FastGasPrice': '5.930625608', 'suggestBaseFee': '5.830625608', 'gasUsedRatio': '0.427729633333333,0.524100533333333,0.438726933333333,0.468333866666667,0.446472033333333'}}
+2024-12-28 16:28:45,263 DEBUG:Propose Gas Price: 5.83
+2024-12-28 16:30:38,694 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:30:39,325 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 324
+2024-12-28 16:30:39,326 DEBUG:GWEI data: {'status': '1', 'message': 'OK', 'result': {'LastBlock': '21501570', 'SafeGasPrice': '5.018368853', 'ProposeGasPrice': '5.044668853', 'FastGasPrice': '5.549135738', 'suggestBaseFee': '5.017668853', 'gasUsedRatio': '0.3683553,0.477061266666667,0.600250488731087,0.2427067,0.372048095035198'}}
+2024-12-28 16:30:39,327 DEBUG:Propose Gas Price: 5.04
+2024-12-28 16:31:06,253 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:31:06,864 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 333
+2024-12-28 16:31:06,864 DEBUG:GWEI data: {'status': '1', 'message': 'OK', 'result': {'LastBlock': '21501571', 'SafeGasPrice': '5.64505522', 'ProposeGasPrice': '5.67135522', 'FastGasPrice': '6.278420549', 'suggestBaseFee': '5.64435522', 'gasUsedRatio': '0.477061266666667,0.600250488731087,0.2427067,0.372048095035198,0.999583646873464'}}
+2024-12-28 16:31:06,864 DEBUG:Propose Gas Price: 5.67
+2024-12-28 16:34:05,285 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:34:05,946 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 306
+2024-12-28 16:36:52,547 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:36:53,368 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 315
+2024-12-28 16:36:53,370 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 16:36:53,839 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 16:36:53,845 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 16:36:54,218 DEBUG:https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 16:36:54,219 ERROR:Помилка при перевірці комісії: 404 Client Error: Not Found for url: https://www.okx.com/api/v5/asset/currencies/ETH
+2024-12-28 16:42:13,530 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:42:14,152 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 321
+2024-12-28 16:42:14,153 WARNING:Поточне значення GWEI (6.060443988) більше 5, виведення коштів заборонено.
+2024-12-28 16:43:03,793 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:43:04,682 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 326
+2024-12-28 16:43:04,683 WARNING:Поточне значення GWEI (6.055780229) більше 5, виведення коштів заборонено.
+2024-12-28 16:50:19,913 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 16:56:16,059 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 16:56:16,060 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 16:56:16,722 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 324
+2024-12-28 16:56:16,723 WARNING:Поточне значення GWEI (5.393663157) більше 5, виведення коштів заборонено.
+2024-12-28 17:05:00,307 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:05:00,710 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 17:05:00,718 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:05:01,397 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 185
+2024-12-28 17:05:01,397 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:05:36,965 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:05:37,578 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 185
+2024-12-28 17:05:37,579 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:05:37,580 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:06:09,912 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:06:10,249 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 17:06:10,254 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:06:10,938 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 185
+2024-12-28 17:06:10,938 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:07:17,034 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:07:17,346 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 17:07:17,349 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:07:17,999 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 185
+2024-12-28 17:07:18,001 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:07:20,602 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:07:21,489 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 185
+2024-12-28 17:07:21,490 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:07:21,491 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:10:08,929 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:10:08,930 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:10:12,581 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:10:12,582 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:10:16,907 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:10:16,907 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:10:48,301 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:10:49,062 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 185
+2024-12-28 17:10:49,063 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:10:49,064 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:18:52,978 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:18:53,827 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:18:53,829 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:18:53,829 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:23:29,799 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:23:30,241 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 17:23:30,247 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:23:31,019 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:23:31,019 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:23:46,023 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:23:46,350 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 17:23:46,365 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:23:47,050 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:23:47,051 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:24:02,055 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:24:02,381 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 17:24:02,387 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:24:03,179 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:24:03,180 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:24:18,183 DEBUG:Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 17:24:18,509 DEBUG:https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 17:24:18,513 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:24:19,150 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:24:19,151 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:27:21,053 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:27:21,832 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:27:21,834 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:27:21,835 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:27:21,838 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:27:22,542 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:27:22,542 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:28:22,547 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:28:23,153 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:28:23,154 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:28:23,154 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:28:23,158 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:28:23,892 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:28:23,893 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:29:23,899 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:29:24,563 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:29:24,563 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:29:24,564 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:29:24,565 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:29:25,173 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:29:25,173 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:30:25,178 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:30:25,893 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:30:25,894 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:30:25,895 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:30:25,897 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:30:26,674 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:30:26,675 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:31:26,681 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:31:27,395 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:31:27,396 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:31:27,397 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:31:27,399 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:31:28,216 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:31:28,217 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:31:39,471 ERROR:Помилка при читанні config.json: Illegal trailing comma before end of object: line 6 column 18 (char 126)
+2024-12-28 17:31:42,490 ERROR:Помилка при читанні config.json: Illegal trailing comma before end of object: line 6 column 18 (char 126)
+2024-12-28 17:32:28,220 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:32:28,935 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:32:28,936 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:32:28,937 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:32:28,941 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:32:29,555 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:32:29,556 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:33:27,040 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:33:27,665 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 331
+2024-12-28 17:33:27,666 WARNING:Поточне значення GWEI (5.65) більше 5, виведення коштів заборонено.
+2024-12-28 17:33:27,668 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:33:28,436 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 331
+2024-12-28 17:33:29,562 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:33:30,376 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:33:30,377 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:33:30,378 ERROR:Не вдалося отримати поточне значення GWEI
+2024-12-28 17:33:30,379 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:33:30,976 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=%D0%92%D0%B0%D1%88_API_%D0%BA%D0%BB%D1%8E%D1%87 HTTP/1.1" 200 184
+2024-12-28 17:33:30,977 ERROR:Помилка при запиті до Etherscan: NOTOK
+2024-12-28 17:33:49,123 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:33:49,836 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 336
+2024-12-28 17:33:49,839 WARNING:Поточне значення GWEI (5.66) більше 5, виведення коштів заборонено.
+2024-12-28 17:33:49,841 DEBUG:Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:33:50,507 DEBUG:https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 336
+2024-12-28 17:37:34,929 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:37:35,939 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 317
+2024-12-28 17:37:35,941 WARNING: Поточне значення GWEI (5.41) більше 5, виведення коштів заборонено.
+2024-12-28 17:37:35,944 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:37:36,549 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 317
+2024-12-28 17:39:55,861 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:39:56,630 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 316
+2024-12-28 17:40:00,371 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:40:01,120 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 316
+2024-12-28 17:40:01,122 WARNING: Поточне значення GWEI (5.47) більше 5.47, виведення коштів заборонено.
+2024-12-28 17:40:01,126 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:40:01,910 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 316
+2024-12-28 17:43:35,382 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:43:36,003 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 318
+2024-12-28 17:43:36,005 WARNING: Поточне значення GWEI (6.3) більше 5.47, виведення коштів заборонено.
+2024-12-28 17:43:54,326 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:43:54,982 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 320
+2024-12-28 17:43:54,985 INFO: Поточне значення GWEI (6.09) менше 7, виконання зняття коштів дозволено.
+2024-12-28 17:46:22,944 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:46:24,014 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 316
+2024-12-28 17:46:24,016 INFO: Поточне значення GWEI (5.65) менше 7, виконання зняття коштів дозволено.
+2024-12-28 17:46:24,017 ERROR: Непередбачена помилка: Invalid format string
+2024-12-28 17:48:49,714 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:48:50,344 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 319
+2024-12-28 17:48:50,345 INFO: Поточне значення GWEI (5.85) менше 7, виконання зняття коштів дозволено.
+2024-12-28 17:48:50,346 ERROR: Непередбачена помилка: Invalid format string
+2024-12-28 17:50:26,438 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:50:27,217 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 313
+2024-12-28 17:50:27,219 INFO: Поточне значення GWEI (5.46) менше 7, виконання зняття коштів дозволено.
+2024-12-28 17:50:27,220 ERROR: Непередбачена помилка: Invalid format string
+2024-12-28 17:52:33,002 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:52:33,888 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 317
+2024-12-28 17:52:33,890 INFO: Поточне значення GWEI (5.3) менше 7, виконання зняття коштів дозволено.
+2024-12-28 17:52:33,890 ERROR: Непередбачена помилка: Invalid format string
+2024-12-28 17:55:07,956 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:55:08,848 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 316
+2024-12-28 17:55:08,849 INFO: Поточне значення GWEI (5.02) менше 7, виконання зняття коштів дозволено.
+2024-12-28 17:55:08,850 ERROR: Непередбачена помилка: Invalid format string
+2024-12-28 17:55:29,533 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:55:30,328 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 319
+2024-12-28 17:55:30,329 INFO: Поточне значення GWEI (4.56) менше 4.62, виконання зняття коштів дозволено.
+2024-12-28 17:55:30,330 ERROR: Непередбачена помилка: Invalid format string
+2024-12-28 17:55:34,724 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:55:35,400 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 319
+2024-12-28 17:55:35,402 INFO: Поточне значення GWEI (4.56) менше 4.62, виконання зняття коштів дозволено.
+2024-12-28 17:55:35,402 ERROR: Непередбачена помилка: Invalid format string
+2024-12-28 17:57:31,136 INFO: Зчитані адреси гаманців: ['address_1', 'address_2', 'address_3', 'address_4', 'address_5', 'address_6', 'address_7', 'address_8', 'address_9', 'address_10', 'address_11', 'address_12', 'address_13', 'address_14', 'address_15', 'address_16', 'address_17', 'address_18', 'address_19', 'address_20', '...', 'address_100']
+2024-12-28 17:57:31,140 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:57:31,821 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 310
+2024-12-28 17:57:31,823 WARNING: Поточне значення GWEI (5.4) більше 4.62, виведення коштів заборонено.
+2024-12-28 17:58:16,069 INFO: Зчитані адреси гаманців: ['0xd5DE0DeaDF2F5ED35Ee388D8162060BDBE76e816', '0x14d161Eaf112FaB3A4b63E6c9ac8629Ac7E2ca74', '0x76Ed415dCa8A88572b9b57F2Ed09E83F7c6a1aF4', '0xFAdD9230734B97b2eAaA10dDFb7a3d57FefA0EA3', '0x1B8Bcb7F8C109935f63989FaFD0476641398da0E', '0xaaF25D542FF87656807DbF8Eb4a335bA1ec80810', '0x19b9bBa4d8103b1A10FcA8e01C2Bb0A5d6872668', '0x90F2991cb86EC1b07206f221CA964b70383fAC8f', '0x5E837bd4B497A7CC989F41368300D254B8Eb8Feb', '0xd0aFBF2E3D45DA06eBa69870da73C86fda676BCD', '0x9455ef0782aF2eE32Ad5d67c001A64b3E656d76b ', '0x6E0B2A451b8d568a7a4DC3a46e9ca6D555Fbc630 ', '0x056fFcC498e163f9cb5C34a854F0B3503Fe63A68 ', '0x5BFe5F449E4D178F6A5a343a79373F516429F359', '0xcC0F51315FbF6E2849bd4216991231877dC375B1', '0xB91353E0Fc376c8AD8a49FA3E58B337BdC0159E8', '0xBc11E48e67547e2f789FA0d9c51d1257B2e96E8E', '0xf6167d8e5885dC0e9d50c8Cae805Eb5d48Ab2678', '0x4ca668bfC502C23b07E3daB0595250FE8F0C7ced', '0xfD33b0503EbaC1324283d4b521F6042f5bc6E2c2']
+2024-12-28 17:58:16,074 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:58:17,143 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 329
+2024-12-28 17:58:17,145 WARNING: Поточне значення GWEI (5.49) більше 4.62, виведення коштів заборонено.
+2024-12-28 17:58:46,949 INFO: Зчитані адреси гаманців: ['0xd5DE0DeaDF2F5ED35Ee388D8162060BDBE76e816', '0x14d161Eaf112FaB3A4b63E6c9ac8629Ac7E2ca74', '0x76Ed415dCa8A88572b9b57F2Ed09E83F7c6a1aF4', '0xFAdD9230734B97b2eAaA10dDFb7a3d57FefA0EA3', '0x1B8Bcb7F8C109935f63989FaFD0476641398da0E', '0xaaF25D542FF87656807DbF8Eb4a335bA1ec80810', '0x19b9bBa4d8103b1A10FcA8e01C2Bb0A5d6872668', '0x90F2991cb86EC1b07206f221CA964b70383fAC8f', '0x5E837bd4B497A7CC989F41368300D254B8Eb8Feb', '0xd0aFBF2E3D45DA06eBa69870da73C86fda676BCD', '0x9455ef0782aF2eE32Ad5d67c001A64b3E656d76b ', '0x6E0B2A451b8d568a7a4DC3a46e9ca6D555Fbc630 ', '0x056fFcC498e163f9cb5C34a854F0B3503Fe63A68 ', '0x5BFe5F449E4D178F6A5a343a79373F516429F359', '0xcC0F51315FbF6E2849bd4216991231877dC375B1', '0xB91353E0Fc376c8AD8a49FA3E58B337BdC0159E8', '0xBc11E48e67547e2f789FA0d9c51d1257B2e96E8E', '0xf6167d8e5885dC0e9d50c8Cae805Eb5d48Ab2678', '0x4ca668bfC502C23b07E3daB0595250FE8F0C7ced', '0xfD33b0503EbaC1324283d4b521F6042f5bc6E2c2']
+2024-12-28 17:58:46,953 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:58:47,751 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 322
+2024-12-28 17:58:47,753 WARNING: Поточне значення GWEI (5.56) більше 4.62, виведення коштів заборонено.
+2024-12-28 17:59:07,696 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:59:08,401 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 307
+2024-12-28 17:59:08,404 WARNING: Поточне значення GWEI (5.51) більше 4.62, виведення коштів заборонено.
+2024-12-28 17:59:47,760 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 17:59:48,581 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 312
+2024-12-28 17:59:48,582 WARNING: Поточне значення GWEI (5.53) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:00:48,585 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:00:49,174 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 326
+2024-12-28 18:00:49,175 WARNING: Поточне значення GWEI (5.84) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:01:10,081 INFO: Зчитані адреси гаманців: ['0xd5DE0DeaDF2F5ED35Ee388D8162060BDBE76e816', '0x14d161Eaf112FaB3A4b63E6c9ac8629Ac7E2ca74', '0x76Ed415dCa8A88572b9b57F2Ed09E83F7c6a1aF4', '0xFAdD9230734B97b2eAaA10dDFb7a3d57FefA0EA3', '0x1B8Bcb7F8C109935f63989FaFD0476641398da0E', '0xaaF25D542FF87656807DbF8Eb4a335bA1ec80810', '0x19b9bBa4d8103b1A10FcA8e01C2Bb0A5d6872668', '0x90F2991cb86EC1b07206f221CA964b70383fAC8f', '0x5E837bd4B497A7CC989F41368300D254B8Eb8Feb', '0xd0aFBF2E3D45DA06eBa69870da73C86fda676BCD', '0x9455ef0782aF2eE32Ad5d67c001A64b3E656d76b ', '0x6E0B2A451b8d568a7a4DC3a46e9ca6D555Fbc630 ', '0x056fFcC498e163f9cb5C34a854F0B3503Fe63A68 ', '0x5BFe5F449E4D178F6A5a343a79373F516429F359', '0xcC0F51315FbF6E2849bd4216991231877dC375B1', '0xB91353E0Fc376c8AD8a49FA3E58B337BdC0159E8', '0xBc11E48e67547e2f789FA0d9c51d1257B2e96E8E', '0xf6167d8e5885dC0e9d50c8Cae805Eb5d48Ab2678', '0x4ca668bfC502C23b07E3daB0595250FE8F0C7ced', '0xfD33b0503EbaC1324283d4b521F6042f5bc6E2c2']
+2024-12-28 18:01:10,083 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:01:10,701 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 323
+2024-12-28 18:01:10,702 WARNING: Поточне значення GWEI (5.94) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:01:49,180 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:01:49,812 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 330
+2024-12-28 18:01:49,812 WARNING: Поточне значення GWEI (5.81) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:02:49,816 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:02:50,602 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 312
+2024-12-28 18:02:50,602 WARNING: Поточне значення GWEI (5.67) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:03:50,605 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:03:51,224 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 307
+2024-12-28 18:03:51,225 WARNING: Поточне значення GWEI (5.59) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:03:57,637 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:03:58,237 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 307
+2024-12-28 18:03:58,237 WARNING: Поточне значення GWEI (5.59) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:04:51,232 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:04:51,853 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 328
+2024-12-28 18:04:51,854 WARNING: Поточне значення GWEI (5.6) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:05:03,607 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:05:04,235 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 326
+2024-12-28 18:05:04,237 WARNING: Поточне значення GWEI (5.53) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:08:02,021 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:08:02,676 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 325
+2024-12-28 18:08:02,678 WARNING: Поточне значення GWEI (5.85) більше 4.62, виведення коштів заборонено.
+2024-12-28 18:08:17,297 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:08:17,927 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 338
+2024-12-28 18:08:17,929 WARNING: Поточне значення GWEI (5.96) більше 5, виведення коштів заборонено.
+2024-12-28 18:08:41,859 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:08:42,487 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 341
+2024-12-28 18:08:42,489 INFO: Поточне значення GWEI (6.03) менше 7, виконання зняття коштів дозволено.
+2024-12-28 18:08:42,489 ERROR: Непередбачена помилка: Invalid format string
+2024-12-28 18:08:58,327 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:08:58,945 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 328
+2024-12-28 18:08:58,946 WARNING: Поточне значення GWEI (5.79) більше 3, виведення коштів заборонено.
+2024-12-28 18:09:22,763 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:09:23,386 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 307
+2024-12-28 18:09:23,387 WARNING: Поточне значення GWEI (5.69) більше 3, виведення коштів заборонено.
+2024-12-28 18:13:30,270 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:13:30,889 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 311
+2024-12-28 18:13:30,891 WARNING: Поточне значення GWEI (5.8) більше 3, виведення коштів заборонено.
+2024-12-28 18:14:07,658 ERROR: Помилка при читанні config.json: Expecting ',' delimiter: line 5 column 25 (char 102)
+2024-12-28 18:14:09,964 ERROR: Помилка при читанні config.json: Expecting ',' delimiter: line 5 column 25 (char 102)
+2024-12-28 18:14:27,551 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:14:28,180 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 334
+2024-12-28 18:14:28,182 WARNING: Поточне значення GWEI (5.65) більше 3, виведення коштів заборонено.
+2024-12-28 18:17:29,666 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:17:30,301 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 315
+2024-12-28 18:17:30,303 WARNING: Поточне значення GWEI (5.44) більше 3, виведення коштів заборонено.
+2024-12-28 18:17:44,341 ERROR: Помилка при читанні config.json: Expecting ',' delimiter: line 5 column 25 (char 102)
+2024-12-28 18:17:47,687 ERROR: Помилка при читанні config.json: Expecting ',' delimiter: line 5 column 25 (char 102)
+2024-12-28 18:17:57,280 ERROR: Помилка при читанні config.json: Expecting ',' delimiter: line 5 column 25 (char 102)
+2024-12-28 18:18:07,098 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:18:07,753 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 307
+2024-12-28 18:18:07,756 WARNING: Поточне значення GWEI (5.63) більше 3, виведення коштів заборонено.
+2024-12-28 18:20:11,844 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:20:12,472 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 326
+2024-12-28 18:20:12,474 WARNING: Поточне значення GWEI (4.92) більше 3, виведення коштів заборонено.
+2024-12-28 18:20:22,772 ERROR: Помилка при читанні config.json: Expecting ',' delimiter: line 5 column 25 (char 102)
+2024-12-28 18:20:45,717 ERROR: Помилка при читанні config.json: Expecting ',' delimiter: line 5 column 25 (char 102)
+2024-12-28 18:23:17,092 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:23:17,764 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 319
+2024-12-28 18:23:17,766 WARNING: Поточне значення GWEI (4.63) більше 3, виведення коштів заборонено.
+2024-12-28 18:23:35,087 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:23:35,714 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 311
+2024-12-28 18:23:35,716 WARNING: Поточне значення GWEI (4.8) більше 3, виведення коштів заборонено.
+2024-12-28 18:23:57,426 ERROR: Непередбачена помилка: invalid literal for int() with base 10: '1,2,3'
+2024-12-28 18:23:59,576 ERROR: Непередбачена помилка: invalid literal for int() with base 10: '1,2,3'
+2024-12-28 18:24:08,519 ERROR: Непередбачена помилка: invalid literal for int() with base 10: '1, 2, 3'
+2024-12-28 18:24:42,015 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:24:42,633 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 306
+2024-12-28 18:24:42,634 WARNING: Поточне значення GWEI (4.92) більше 3, виведення коштів заборонено.
+2024-12-28 18:25:18,482 ERROR: Помилка при читанні config.json: Expecting property name enclosed in double quotes: line 5 column 35 (char 112)
+2024-12-28 18:25:20,436 ERROR: Помилка при читанні config.json: Expecting property name enclosed in double quotes: line 5 column 35 (char 112)
+2024-12-28 18:25:33,363 ERROR: Помилка при читанні config.json: Expecting property name enclosed in double quotes: line 5 column 35 (char 112)
+2024-12-28 18:26:35,554 ERROR: Помилка при читанні config.json: Expecting ':' delimiter: line 5 column 38 (char 115)
+2024-12-28 18:28:27,014 ERROR: Помилка при читанні config.json: Extra data: line 9 column 1 (char 134)
+2024-12-28 18:28:35,600 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:28:36,216 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 314
+2024-12-28 18:28:36,217 WARNING: Поточне значення GWEI (5.09) більше 3, виведення коштів заборонено.
+2024-12-28 18:29:22,807 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:29:23,417 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 321
+2024-12-28 18:29:23,419 WARNING: Поточне значення GWEI (4.51) більше 3, виведення коштів заборонено.
+2024-12-28 18:44:02,185 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:44:02,845 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 318
+2024-12-28 18:44:02,847 WARNING: Поточне значення GWEI (5.83) більше 3, виведення коштів заборонено.
+2024-12-28 18:44:37,719 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:44:38,327 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 324
+2024-12-28 18:44:38,329 INFO: Поточне значення GWEI (5.85) менше 8, виконання зняття коштів дозволено.
+2024-12-28 18:44:38,332 DEBUG: Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 18:44:38,735 DEBUG: https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 18:44:38,742 DEBUG: Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 18:44:39,055 DEBUG: https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 18:44:39,057 ERROR: Помилка при перевірці комісії: Валюта не знайдена (404)
+2024-12-28 18:45:17,674 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:45:18,306 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 328
+2024-12-28 18:45:18,309 INFO: Поточне значення GWEI (5.78) менше 8, виконання зняття коштів дозволено.
+2024-12-28 18:45:18,312 DEBUG: Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 18:45:18,626 DEBUG: https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 18:45:18,634 DEBUG: Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 18:45:18,985 DEBUG: https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 18:45:18,986 ERROR: Помилка при перевірці комісії: Валюта не знайдена (404)
+2024-12-28 18:48:02,321 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:48:02,934 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 323
+2024-12-28 18:48:02,936 INFO: Поточне значення GWEI (5.34) менше 8, виконання зняття коштів дозволено.
+2024-12-28 18:48:02,940 DEBUG: Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 18:48:03,264 DEBUG: https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 18:48:03,269 DEBUG: Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 18:48:03,614 DEBUG: https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 18:48:03,616 ERROR: Помилка при перевірці комісії: Валюта не знайдена (404)
+2024-12-28 18:51:21,166 DEBUG: Starting new HTTPS connection (1): api.etherscan.io:443
+2024-12-28 18:51:21,801 DEBUG: https://api.etherscan.io:443 "GET /api?module=gastracker&action=gasoracle&apikey=ERDMVYFY2R8WA3HVMXXNBKC79388UND3AF HTTP/1.1" 200 306
+2024-12-28 18:51:21,803 INFO: Поточне значення GWEI (6.28) менше 8, виконання зняття коштів дозволено.
+2024-12-28 18:51:21,806 DEBUG: Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 18:51:22,166 DEBUG: https://www.okx.com:443 "GET /api/v5/account/balance HTTP/1.1" 200 None
+2024-12-28 18:51:22,169 DEBUG: Starting new HTTPS connection (1): www.okx.com:443
+2024-12-28 18:51:22,480 DEBUG: https://www.okx.com:443 "GET /api/v5/asset/currencies/ETH HTTP/1.1" 404 None
+2024-12-28 18:51:22,481 ERROR: Помилка при перевірці комісії: Валюта не знайдена (404)
